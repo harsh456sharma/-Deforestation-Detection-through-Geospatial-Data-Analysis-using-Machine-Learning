@@ -1,0 +1,25 @@
+<!-- Add to your <style> section -->
+.custom-btn-green {
+  background: linear-gradient(90deg, #28a745 0%, #218838 100%);
+  border: none;
+  color: #fff;
+  transition: background 0.3s, transform 0.2s;
+}
+.custom-btn-green:hover, .custom-btn-green:focus {
+  background: linear-gradient(90deg, #218838 0%, #28a745 100%);
+  color: #fff;
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 6px 24px rgba(40,167,69,0.15);
+}
+.custom-btn-outline {
+  border: 2px solid #fff;
+  color: #fff;
+  background: transparent;
+  transition: background 0.3s, color 0.3s, transform 0.2s;
+}
+.custom-btn-outline:hover, .custom-btn-outline:focus {
+  background: #fff;
+  color: #218838;
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 6px 24px rgba(255,255,255,0.12);
+}

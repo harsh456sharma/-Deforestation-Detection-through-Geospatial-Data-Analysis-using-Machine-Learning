@@ -1,0 +1,38 @@
+# Data
+data/
+datasets/
+raw_data/
+processed_data/
+
+# Models
+models/
+trained_models/
+*.pkl
+*.h5
+*.pth
+*.joblib
+
+# Logs and temporary files
+logs/
+*.log
+tmp/
+__pycache__/
+*.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+conda_envs/
+
+# Sensitive information
+credentials.py
+config.ini
+.env
+
+# IDE and OS specific files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
